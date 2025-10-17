@@ -80,7 +80,7 @@ void deleteAthead(){
     else{
         node* temp=head;
         head=head->next;
-        delete temp;
+        delete temp; 
         size--;
     }
 }
