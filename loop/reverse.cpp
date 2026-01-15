@@ -9,9 +9,9 @@ int main() {
     int reverse = 0;
 
     while(n > 0) {
-        int ld = n % 10;     // get last digit
-        reverse = reverse * 10 + ld;  // append digit to reverse
-        n /= 10;             // reduce n
+        int ld = n % 10;     
+        reverse = reverse * 10 + ld;  
+        n /= 10;             
     }
 
     cout << "Reversed number: " << reverse << endl;
